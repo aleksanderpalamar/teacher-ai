@@ -10,7 +10,7 @@ const font = Poppins({
 
 export const metadata: Metadata = {
   title: "Lingo",
-  description: "Lingo is a plataform for learning languages.",
+  description: "Hero Learn, practice, and master new languages",
 };
 
 export default function RootLayout({
