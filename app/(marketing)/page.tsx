@@ -41,7 +41,7 @@ export default function Home() {
                 afterSignUpUrl="/learn"
               >
                 <Button size="lg" variant="primaryOutline" className="w-full">
-                  I already have an account
+                  I already have an account.
                 </Button>
               </SignInButton>
             </SignedOut>
