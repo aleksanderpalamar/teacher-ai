@@ -29,6 +29,9 @@ dependencies:
   react-dom:
     specifier: ^18
     version: 18.2.0(react@18.2.0)
+  react-flagpack:
+    specifier: ^1.2.0
+    version: 1.2.0(react@18.2.0)
   tailwind-merge:
     specifier: ^2.2.2
     version: 2.2.2
@@ -2640,6 +2643,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-flagpack@1.2.0(react@18.2.0):
+    resolution: {integrity: sha512-qGhnBGg9lCHQ7AKu5wZ0pTvPACz0opLa0+hJ6zj9805jI016YjE8ggAj269GaIG/wyelmX/Qph/SWQecm0RFrQ==}
+    peerDependencies:
+      react: ^16.8.* || ^17.*
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is@16.13.1:
