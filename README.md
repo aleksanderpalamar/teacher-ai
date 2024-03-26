@@ -1,6 +1,7 @@
 # Build a application to learn languages with Nextjs, React, Drizzle, Stripe.
 
 Key Features:
+
 - 🌐 Next.js 14 & server actions
 - 🗣 AI Voices using Elevenlabs AI
 - 🎨 Beautiful component system using Shadcn UI
@@ -41,14 +42,13 @@ npm i
 
 ### Setup .env file
 
-
 ```js
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
-CLERK_SECRET_KEY=""
-DATABASE_URL="postgresql://..."
-STRIPE_API_KEY=""
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
-STRIPE_WEBHOOK_SECRET=""
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY = "";
+CLERK_SECRET_KEY = "";
+DATABASE_URL = "postgresql://...";
+STRIPE_API_KEY = "";
+NEXT_PUBLIC_APP_URL = "http://localhost:3000";
+STRIPE_WEBHOOK_SECRET = "";
 ```
 
 ### Setup Drizzle ORM
