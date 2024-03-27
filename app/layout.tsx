@@ -9,7 +9,7 @@ const font = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Lingo",
+  title: "Teacher AI",
   description: "Hero Learn, practice, and master new languages",
 };
 
