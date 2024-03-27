@@ -27,6 +27,11 @@ export const Sidebar = ({ className }: Props) => {
       </Link>
       <div className="flex flex-col gap-y-2 flex-1">
         <SidebarItem
+          label="Home"
+          href="/learn"
+          iconSrc="/assets/learn.svg"
+        />
+        <SidebarItem
           label="Leaderboard"
           href="/leaderboard"
           iconSrc="/assets/leaderboard.svg"
@@ -49,6 +54,24 @@ export const Sidebar = ({ className }: Props) => {
         <ClerkLoaded>
           <UserButton afterSignOutUrl="/" />
         </ClerkLoaded>
+        <footer
+          className="flex justify-center items-center gap-x-2 text-center text-sm text-muted-foreground mt-2"
+        >
+          <p className="text-xs text-muted-foreground">
+            Developed by&nbsp;
+            <Link
+              href="https://aleksanderpalamar.dev"
+              target="_blank"
+              rel="noreferrer"
+              className="text-muted-foreground hover:underline"
+            >
+              Palamar.Dev
+            </Link>
+          </p>
+          <p className="text-xs text-muted-foreground">
+            copyright © 2024 - Lingo All rights reserved
+          </p>
+        </footer>
       </div>
     </div>
   );
