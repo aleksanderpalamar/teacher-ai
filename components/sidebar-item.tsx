@@ -7,8 +7,8 @@ import Image from "next/image";
 
 interface Props {
   label: string;
-  iconSrc: string;
   href: string;
+  iconSrc: string;
 }
 
 export const SidebarItem = ({ label, iconSrc, href }: Props) => {
