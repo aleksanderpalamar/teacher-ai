@@ -20,7 +20,7 @@ const CoursesPage = async () => {
       </h1>
       <List
         courses={courses}
-        activeCoursedId={userProgress?.activeCourseId}
+        activeCourseId={userProgress?.activeCourseId}
       />
     </div>
   )
