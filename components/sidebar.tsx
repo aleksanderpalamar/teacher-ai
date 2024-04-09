@@ -55,7 +55,7 @@ export const Sidebar = ({ className }: Props) => {
           <UserButton afterSignOutUrl="/" />
         </ClerkLoaded>
         <footer
-          className="flex justify-center items-center gap-x-2 text-center text-sm text-muted-foreground mt-2"
+          className="flex justify-center items-center gap-x-2 text-center text-sm text-muted-foreground mt-2 border-t-2 border-slate-200 p-2"
         >
           <p className="text-xs text-muted-foreground">
             Developed by&nbsp;
@@ -67,9 +67,6 @@ export const Sidebar = ({ className }: Props) => {
             >
               Palamar.Dev
             </Link>
-          </p>
-          <p className="text-xs text-muted-foreground">
-            copyright © 2024 - Lingo All rights reserved
           </p>
         </footer>
       </div>
